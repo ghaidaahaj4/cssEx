@@ -1,1 +1,1 @@
-![the result](5.2_Card/Screenshot 2024-08-15 at 12.08.55.png?raw=true "the result")
+![the result](https://github.com/ghaidaahaj4/cssEx/blob/main/5.2_Card/Screenshot%202024-08-15%20at%2012.08.55.png?raw=true?raw=true "the result")
