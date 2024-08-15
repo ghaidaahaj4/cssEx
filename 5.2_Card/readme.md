@@ -1,0 +1,1 @@
+![the result](5.2_Card/Screenshot 2024-08-15 at 12.08.55.png?raw=true "the result")
