@@ -1,0 +1,31 @@
+#outer {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+    
+    }
+#inner {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    /* we should use relative and not absolute */
+    position: relative;
+    top: 10px;
+    }
+
+    /*
+    The position: relative; CSS property positions an 
+    element relative to its normal position in the document flow.
+    
+    The position: absolute; CSS property positions 
+    an element relative to its nearest positioned 
+    ancestor, If no such ancestor exists and this is the case here,
+    it positions the element
+    relative to the initial 
+    containing block (usually the <html> element).
+     
+     so we can fix the problem in tow ways : 
+     1) the first one is to change line   ---13---   position: absolute to relative;
+     2) the seconed one to keep line 13 as is and add  position: absolute to #outer;
+     */
