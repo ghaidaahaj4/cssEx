@@ -6,19 +6,12 @@ body, html {
 .navbar {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
     background-color: #8bb759;
 }
 
-/*this is without media query*/
-ul , li{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .navbar .logo {
     color: #fff;
     font-size: 1.5em;
@@ -26,13 +19,16 @@ ul , li{
 }
 
 .navbar .nav-links {
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 
 }
 
-
+.navbar .nav-links li {
+    margin-left: 1em;
+}
 
 .navbar .nav-links a {
     color: #fff;
@@ -43,18 +39,13 @@ ul , li{
 }
 
 .navbar .nav-links a:hover {
-   
     background-color: #9dce66;
 }
 
-/*this is withhh media query*/
-/* phone device */
-/* 
-
+/*phone device*/
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
-        justify-content: space-between;
         align-items:center;
     }
 
@@ -71,4 +62,4 @@ ul , li{
     .navbar .nav-links a {
         width: 100%;
     }
-} */
+}
