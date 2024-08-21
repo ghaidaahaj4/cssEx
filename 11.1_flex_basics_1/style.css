@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    /*q1*/
+    display: flex;
+    flex-direction: row;
+    /*q2*/
+    justify-content: space-between;
+}
+.red{
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+}
+.green{
+    height: 10vh;
+    width: 10vh;
+    background-color: green;
+}
+.blue{
+    height: 10vh;
+    width: 10vh;
+    background-color: blue;
+}
