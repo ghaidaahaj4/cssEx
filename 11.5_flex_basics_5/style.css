@@ -26,8 +26,6 @@ ul , li{
 }
 
 .navbar .nav-links {
-    display: flex;
-    flex-direction: row;
     list-style: none;
     margin: 0;
     padding: 0;
