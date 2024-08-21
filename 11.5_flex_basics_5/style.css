@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .navbar {
@@ -16,6 +15,7 @@ body, html {
 .navbar .logo {
     color: #fff;
     font-size: 1.5em;
+    flex: 1;
 }
 
 .navbar .nav-links {
@@ -23,6 +23,7 @@ body, html {
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
 
 .navbar .nav-links li {
