@@ -1,0 +1,29 @@
+
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+
+}
+.red{
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+}
+.green{
+    height: 10vh;
+    width: 10vh;
+    background-color: green;
+}
+.blue{
+    height: 10vh;
+    width: 10vh;
+    background-color: blue;
+}
